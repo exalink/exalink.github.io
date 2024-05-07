@@ -7,13 +7,13 @@
 body {background-color:#222; color:white; text-align:center;}
 </style>
 <script>
-function shortLink(shortName, link){if (window.location.hash == '#'+shortName){window.location.replace(link)}}
+function shortLink(shortName, link){if (window.location.hash.toLowerCase() == '#'+shortName.toLowerCase()){window.location.replace(link)}}
 
 shortLink('lmao', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ')
 shortLink('MCBEx86', 'https://github.com/ambiennt/MCBEx86/releases/download/1.18.12/Microsoft.MinecraftUWP_1.18.1201.0_x86__8wekyb3d8bbwe.Appx')
 shortLink('codestats', 'https://codestats.net/users/Exallotriote')
-shortLink('Senior', 'https://exallotriote.github.io/Senior/')
-shortLink('senior', 'https://github.com/Exallotriote/Senior')
+shortLink('senior', 'https://exallotriote.github.io/Senior/')
+shortLink('mdz', 'https://exallotriote.github.io/MiniDayz/')
 
 
 </script>
